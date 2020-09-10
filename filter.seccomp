@@ -1,0 +1,13 @@
+
+A = arch
+A == ARCH_X86_64 ? next : dead
+A = sys_number
+A >= 0x40000000 ? dead : next
+A == exit ? ok : next
+A == munmap ? ok : next
+
+return KILL
+ok:
+return ALLOW
+dead:
+return KILL
