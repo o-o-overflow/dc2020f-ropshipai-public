@@ -14,7 +14,7 @@ Once it finishes, you can see the resulting game by using the visualizer:
 
 `./visualizer.py /dev/shm/ropship/states tmp/`
 
-To compile generate teams' solutions, you can use `generate_inputs.py`.
+To generate teams' solutions, you can use `generate_inputs.py`.
 This script supports, optionally, different command line arguments, to generate different solutions.
 
 ## Submitted data
@@ -27,4 +27,6 @@ The file `ropshipai_submitted.tgz.gpg` contains the solutions submitted by teams
 The file is `gpg` encrypted using the following passphrase:
 
 `IAmAwareThatThisFileMayContainMaliciousStuff2020`
+
+You can see what happened during DEFCON 2020 Finals [here](https://www.youtube.com/watch?v=cZB8gpN8I4w).
 
